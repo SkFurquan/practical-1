@@ -15,6 +15,8 @@ eventEmitter.on('scream', myEventHandler);
 //Fire the 'scream' event:
 eventEmitter.emit('scream');
 
+
+
 2. jQuery UI Example
 <!DOCTYPE html>  
 <head>  
@@ -36,6 +38,8 @@ eventEmitter.emit('scream');
      </div>  
 </body>  
 </html>  
+
+
 
 Output :  I am draggable!
 3 jQuery Example
@@ -64,6 +68,8 @@ This is first paragraph.
 This is second paragraph.
 This is third paragraph.
 
+
+
 4  Example to see the use of Tag selector. This would select all the elements with a tag name and the background color is set to "pink".
 <!DOCTYPE html>  
 <html>  
@@ -88,6 +94,9 @@ Output:
 This is first paragraph.
 This is second paragraph.
 This is third paragraph.
+
+
+
 5  Example to see the jQuery hide effect.
 
 <!DOCTYPE html>  
@@ -115,6 +124,10 @@ How I wonder what you are
 <button id="hide">Hide</button>  
 </body>  
 </html>  
+
+
+
+
 6. Simple CSS example
 <!DOCTYPE html>
 <html>
@@ -143,6 +156,9 @@ p {
 </body>
 </html>
 
+
+
+
 7.  Bootstrap
 <!DOCTYPE html>
 <html lang="en">
@@ -163,6 +179,10 @@ p {
 
 </body>
 </html>
+
+
+
+
  8  write a simple example using AngularJS library. Let us create an HTML file
 <!doctype html>
 <html>
@@ -182,6 +202,9 @@ $scope.helloTo.title="AngularJS";
 </script>
 </body>
 </html>
+
+
+
 9   Write html code for form (representative code is mentioned here, modify for multiple inputs)
 <h1>Simple Form</h1>
 <form#simpleForm = "ngForm"(ngSubmit) = "getValues(simpleForm.value)">
@@ -193,6 +216,10 @@ $scope.helloTo.title="AngularJS";
   <br><br>
   <button>Get user value</button>
 </form>
+
+
+
+
 
 10. Sample code :
 Ajax communication.html
